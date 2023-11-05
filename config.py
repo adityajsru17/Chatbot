@@ -4,14 +4,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 27353035))
-API_HASH = getenv("API_HASH", "cf2a75861140ceb746c7796e07cbde9e")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", 5350929381))
-MONGO_URL = getenv("MONGO_URL", None)
-SUPPORT_GRP = getenv("SUPPORT_GRP", "WrostDemon")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "xytrabot")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Xytra_zn")
+API_ID = int(getenv("API_ID", "24006476"))
+API_HASH = getenv("API_HASH", "15478961975051dfc360958e9ea07830")
+BOT_TOKEN = getenv("BOT_TOKEN", "6513435990:AAFPbMuzlm6gr_VQjx2LRqkAcePyu5SBG-8")
+OWNER_ID = int(getenv("OWNER_ID", "6661176722"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://HEROKU:HEROKU@cluster0.cjcl8a8.mongodb.net/?retryWrites=true&w=majority")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "offtopic_community")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "jee_study_room")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "jsruordinators")
 
 # Random Start Images
 IMG = [
