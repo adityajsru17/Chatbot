@@ -56,7 +56,7 @@ async def start(_, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@MickeyBot.on_cmd("aihelp")
+@MickeyBot.on_cmd("help")
 async def help(client: MickeyBot, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         hmm = await m.reply_photo(
@@ -74,7 +74,7 @@ async def help(client: MickeyBot, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@MickeyBot.on_cmd("airepo")
+@MickeyBot.on_cmd("repo")
 async def repo(_, m: Message):
     await m.reply_text(
         text=SOURCE_READ,
